@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
     </head>
     <body>
         <div id="sideMenu">
@@ -8,10 +9,14 @@
             <div id="name">Margaret Earnest</div><br/>
             <div id="subtitle">Software Engineer</div>
             <nav>
-                <button>About Me</button><br/>
-                <button>Academics</button><br/>
-                <button>Projects</button><br/>
+                <button onclick="load('about.html')">About Me</button><br/>
+                <button onclick="load('academics.html')">Academics</button><br/>
+                <button onclick="load('projects.html')">Projects</button><br/>
             </nav>
         </div>
+        <div id="mainPage"></div>
+        <script>
+            load('about.html');
+        </script>
     </body>
 </html>

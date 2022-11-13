@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
 }
 
 #profileImage {
@@ -25,7 +26,7 @@ body {
 
 #subtitle {
     margin-top: -15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 button {
@@ -53,4 +54,9 @@ button:active {
 nav {
     display: flex;
     flex-direction: column;
+}
+
+#mainPage {
+    flex: 1 1 0;
+    background-color: #DFD6EF;
 }
