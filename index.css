@@ -1,6 +1,9 @@
 body {
-    margin: 0;
     font-family: 'Trebuchet MS', sans-serif;
+}
+
+#mainBody {
+    margin: 0;
     display: flex;
 }
 
@@ -19,7 +22,7 @@ body {
 }
 
 #name {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -59,4 +62,18 @@ nav {
 #mainPage {
     flex: 1 1 0;
     background-color: #DFD6EF;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+object {
+    width: calc(100% - 300px);
 }
