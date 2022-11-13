@@ -33,7 +33,7 @@ body {
     margin-bottom: 30px;
 }
 
-a {
+a[role=button] {
     background-color: #8D7CAA;
     border: none;
     color: white;
@@ -47,11 +47,11 @@ a {
     cursor: pointer;
 }
 
-a:hover {
+a[role=button]:hover {
     background-color: #736093;
 }
 
-a:active {
+a[role=button]:active {
     background-color: #5B4C74;
 }
 
@@ -151,4 +151,8 @@ ul {
     align-items: center;
     margin: 0 60px 20px;
     width: calc(100% - 120px);
+}
+
+#degreeHolder {
+    margin: 0 60px;
 }
