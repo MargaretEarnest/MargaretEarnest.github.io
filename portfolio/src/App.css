@@ -34,7 +34,7 @@ body {
 }
 
 button {
-  background-color: #8D7CAA;
+  background-color: #58517B;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -48,11 +48,11 @@ button {
 }
 
 button:hover {
-  background-color: #736093;
+  background-color: #686191;
 }
 
 button:active {
-  background-color: #5B4C74;
+  background-color: #4b4467;
 }
 
 nav {
